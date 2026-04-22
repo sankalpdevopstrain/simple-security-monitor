@@ -8,6 +8,7 @@
     - [🟡 Job2 – Promotion Stage](#-job2--promotion-stage)
     - [🔵 Job3 – Deployment Stage](#-job3--deployment-stage)
   - [📊 Application Access](#-application-access)
+  - [Screenshots:](#screenshots)
 
 
 ## Overview
@@ -58,4 +59,7 @@ GitHub → Jenkins → Docker Build → Docker Tag → Deployment
 - POST /event
 - GET /events
 - GET /alerts
+
+## Screenshots:
+
 
