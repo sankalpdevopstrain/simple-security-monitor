@@ -1,4 +1,14 @@
 # 🚀 CI/CD Pipeline – SIEM Project
+- [🚀 CI/CD Pipeline – SIEM Project](#-cicd-pipeline--siem-project)
+  - [Overview](#overview)
+  - [🔧 Technologies Used](#-technologies-used)
+  - [⚙️ Pipeline Architecture](#️-pipeline-architecture)
+  - [🧩 Jenkins Jobs](#-jenkins-jobs)
+    - [🟢 Job1 – Build Stage](#-job1--build-stage)
+    - [🟡 Job2 – Promotion Stage](#-job2--promotion-stage)
+    - [🔵 Job3 – Deployment Stage](#-job3--deployment-stage)
+  - [📊 Application Access](#-application-access)
+
 
 ## Overview
 This project demonstrates a full CI/CD pipeline using Jenkins, Docker, and GitHub.
