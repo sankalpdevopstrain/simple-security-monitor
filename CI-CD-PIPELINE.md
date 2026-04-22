@@ -61,5 +61,5 @@ GitHub → Jenkins → Docker Build → Docker Tag → Deployment
 - GET /alerts
 
 ## Screenshots:
-
+![3 Jobs for CI/CD pipeline](image-6.png)
 
