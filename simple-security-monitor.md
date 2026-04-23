@@ -14,6 +14,7 @@
 - [Dashboard:](#dashboard)
 - [Recent events:](#recent-events)
 - [Alerts:](#alerts)
+- [](#)
 - [Challenges \& Blockers](#challenges--blockers)
   - [1. Docker build failure (missing Dockerfile)](#1-docker-build-failure-missing-dockerfile)
   - [2. npm dependency / build issues](#2-npm-dependency--build-issues)
@@ -54,7 +55,7 @@ The system allows fake or real events (e.g. failed logins) to be sent via API en
 ---
 
 ## Architecture
-![Mini SIEM Security Monitor - Architecture](image-5.png)
+![Mini-diagram](docs/images/image-5.png)
 
 ---
 ## How It Works
@@ -85,20 +86,19 @@ docker build -t simple-siem
 docker run -p 3000:3000 simple-siem
 ```
 ## Creating an event:
-![Creating event](image.png)
+![Create an event](docs/images/image.png)
 
 ## Showing event in folder:
-![Event display in folder](image-1.png)
+![Event in folder](docs/images/image-1.png)
 
 ## Dashboard:
-![Basic Dashboard](image-2.png)
+![Dashboard](docs/images/image-2.png)
 
 ## Recent events:
-![Event logs](image-3.png)
+![Events](docs/images/image-3.png)
 
 ## Alerts:
-![Alerts](image-4.png)
-
+![Alerts](docs/images/image-4.png)
 ---
 ## Challenges & Blockers
 

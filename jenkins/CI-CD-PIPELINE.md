@@ -22,6 +22,7 @@
     - [Job 2 console output:](#job-2-console-output)
     - [Job 3 console output:](#job-3-console-output)
     - [Jenkins UI after the CI/CD](#jenkins-ui-after-the-cicd)
+  - [](#)
   - [Sending logs using CI/CD](#sending-logs-using-cicd)
     - [Normal logs:](#normal-logs)
     - [Alert logs](#alert-logs)
@@ -33,7 +34,7 @@ This project demonstrates a full CI/CD pipeline using Jenkins, Docker, and GitHu
 ---
 
 ## Diagram to represent the process:
-![CI/CD pipeline](image-6.png)
+![CI/CD Pipeline](../docs/images/image-6.png)
 
 ### What the diagram shows:
 1. GitHub push triggers Jenkins via webhook (Ngrok)
@@ -156,7 +157,7 @@ Live SIEM dashboard running on:
 
 ---
 ## Output in Jenkins
-![Job 1](image-7.png)
+![Output](../docs/images/image-7.png)
 
 ### Job 1 console output:
 ```bash
@@ -313,8 +314,7 @@ App running on port 3000
 Finished: SUCCESS
 ```
 ### Jenkins UI after the CI/CD
-![CI/CD pipeline](image-8.png)
-
+![Jenkins pipeline](../docs/images/image-8.png)
 ---
 ## Sending logs using CI/CD 
 ### Normal logs:
@@ -339,6 +339,6 @@ curl -X POST http://localhost:3000/event \
 -H "Content-Type: application/json" \
 -d "{\"type\":\"alert\",\"message\":\"Suspicious IP detected accessing /admin\",\"source\":\"firewall\"}"
 ```
-![Git Bash window with all the logs](image-9.png)
+![Git Bash window with the output](../docs/images/image-9.png)
 ## Output of the logs on App dashboard
-![Output of logs](image-10.png)
+![Ouput on Dashboard](../docs/images/image-10.png)
