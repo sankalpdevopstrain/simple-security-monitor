@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: simple-siem-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: simple-siem
+  template:
+    metadata:
+      labels:
+        app: simple-siem
+    spec:
+      containers:
+      - name: simple-siem
+        image: sankalpdevops/simple-siem:latest
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 3000
